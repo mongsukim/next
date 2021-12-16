@@ -1,6 +1,5 @@
 import Head from 'next/head'
 
-
 const HeadInfo = ({title, keyword, contents}) => {
     return(
             <Head>
@@ -12,8 +11,8 @@ const HeadInfo = ({title, keyword, contents}) => {
 }
 
 HeadInfo.defaultProps = {
-    title:'my blog',
-    keyword:'blog powered by Next Js',
+    title:'My blog',
+    keyword:'Blog powered by Next Js',
     contents:'practice next js'
 }
 
